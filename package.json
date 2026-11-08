@@ -1,0 +1,20 @@
+{
+  "name": "books-cypress-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "laptop-headed": "cypress run --headed --browser chrome --config-file cypress.laptop.config.js",
+    "laptop-headless": "cypress run --browser electron --config-file cypress.laptop.config.js",
+    "mobile-headed": "cypress run --headed --browser electron --config-file cypress.mobile.config.js",
+    "mobile-headless": "cypress run --browser chrome --config-file cypress.mobile.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}
